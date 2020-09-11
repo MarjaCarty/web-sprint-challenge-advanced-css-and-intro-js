@@ -135,7 +135,7 @@ button:hover{
     width:100%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     nav {
         align-items: center;
     }
