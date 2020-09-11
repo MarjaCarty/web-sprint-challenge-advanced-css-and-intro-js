@@ -282,12 +282,14 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/* Code here */){
+function addArtist(arr, obj){
 
-    /* Code here */
+    arr.push(obj);
+    return arr;
 
   }
 
+  console.log(addArtist(artists, {id: 20, name: "Marja Carty", years: "1991-current", genre: "Web Design", nationality: "Native American", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}));
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
     (1) artists array 
