@@ -241,7 +241,7 @@ function get20s(arr, startNum, endNum){
   let newArtists = [];
   for (let i = 0; i < arr.length; i++) {
     let years = arr[i].years.split(" ");
-    if (Number(years[0]) >= startNum && Number(years[2] <= endNum)) {
+    if (Number(years[0]) >= startNum && Number(years[2]) <= endNum) {
       newArtists.push(arr[i].name);
     }
   }
